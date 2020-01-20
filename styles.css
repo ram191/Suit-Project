@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(38, 141, 145)
+}
+
+.heading {
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main #button {
+  padding: 40px;
+  background: greenyellow;
+  border: none;
+  font-size: 1.5rem;
+  box-shadow: 3px 3px 6px black;
+  font-weight: 600;
+}
+
+.main button:active {
+  box-shadow: -3px -3px 6px white;
+}
+
+.main button:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game #mainText {
+  color: rgba(255, 255, 255, 0);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: 2s ease;
+  transition-delay: 1s;
+}
+.game #and {
+  color: rgba(255, 255, 255, 0);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: 2s ease;
+  transition-delay: 3s;
+}
+.game #cpuText {
+  color: rgba(255, 255, 255, 0);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: 2s ease;
+  transition-delay: 5s;
+}
+.game #conclusion {
+  color: rgba(255, 255, 255, 0);
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: 2s ease;
+  transition-delay: 7s;
+}
+.main #playAgain {
+  padding: 20px;
+  background: greenyellow;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 3px 3px 6px black;
+  font-weight: 600;
+  transform: translateY(500%);
+  pointer: cursor;
+  transition: 1s ease;
+  transition-delay: 9s;
+}
